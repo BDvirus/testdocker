@@ -16,3 +16,9 @@ def health():
 @app.get("/dvirus")
 def health():
     return {"status": "ok here is the dvirus endpoint"}
+
+
+
+@app.get("/welcome")
+def health():
+    return {"status": "welocme webhook"}
