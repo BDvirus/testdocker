@@ -22,3 +22,10 @@ def health():
 @app.get("/welcome")
 def health():
     return {"status": "welocme webhook"}
+
+
+
+
+@app.get("/waf")
+def health():
+    return {"status": "welocme waf"}
